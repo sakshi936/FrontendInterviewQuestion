@@ -54,7 +54,7 @@ An HTML entity is a piece of text ("string") that begins with an ampersand (&) a
 
 Some special characters are reserved for use in HTML, meaning that your browser will parse them as HTML code. For example, if you use the less-than (<) sign, the browser interprets any text that follows as a tag.
 
-To display these characters as text, replace them with their corresponding character entities
+To display these characters as text, replace them with their corresponding character entities.
 
 '&' &amp Interpreted as the beginning of an entity or
 
