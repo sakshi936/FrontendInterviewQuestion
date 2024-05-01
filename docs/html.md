@@ -56,8 +56,6 @@ Some special characters are reserved for use in HTML, meaning that your browser 
 
 To display these characters as text, replace them with their corresponding character entities.
 
-'&' &amp Interpreted as the beginning of an entity or
-
 ```html
 &amp;
 <!-- Interpreted as the beginning of an entity or character reference '&' -->
@@ -81,7 +79,59 @@ To display these characters as text, replace them with their corresponding chara
 <summary>
  What are different types of lists in HTML?
 </summary>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam fuga qui nesciunt ipsa eius laborum repudiandae aut dignissimos voluptatum, perspiciatis molestias numquam iste, dolores veniam. Aliquam, pariatur dolore quia non explicabo eius! Pariatur omnis quam quo molestias sequi, non quod consequatur beatae rem blanditiis inventore ratione quisquam aspernatur facere vel?
+
+## HTML List
+
+HTML lists allow the content to follow a proper semantic structure. All the tags in the list require opening and closing tags.
+There are 3 types of lists in HTML, namely:
+
+- Unordered List
+- Ordered List
+- Description List
+
+### Unordered list
+
+Unordered List: An Unordered list is used to create a list of related items, in bulleted or unordered format.
+
+```html
+<ul>
+  <li>Item1</li>
+  <li>Item2</li>
+  <li>Item3</li>
+  ...
+</ul>
+```
+
+## Ordered lists
+
+The Ordered lists have an order which is either numerical or alphabetical.
+
+```html
+<ol>
+  <li>Item1</li>
+  <li>Item2</li>
+  <li>Item3</li>
+  ...
+</ol>
+```
+
+## Description List
+
+A description list is a type of list where each item has a description. It is also known as a definition list.
+
+```html
+<dl>
+  <!--<dl>: It defines the start of the list.-->
+  <dt>Code</dt>
+  <!--<dt>: It defines a item.-->
+  <dd>- Code all day!</dd>
+  <!--<dd>: It defines the description of each item.-->
+  <dt>Eat</dt>
+  <dd>- Eat healthy food</dd>
+  <dt>Sleep</dt>
+  <dd>- Sleep soundly!</dd>
+</dl>
+```
 
 </details>
 
