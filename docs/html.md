@@ -137,9 +137,16 @@ A description list is a type of list where each item has a description. It is al
 
 <details >
 <summary>
-What is difference between “id attribute” and the “class attribute” of HTML elements?
+What is difference between “id attribute” and the “class attribute” of HML elements?
 </summary>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam fuga qui nesciunt ipsa eius laborum repudiandae aut dignissimos voluptatum, perspiciatis molestias numquam iste, dolores veniam. Aliquam, pariatur dolore quia non explicabo eius! Pariatur omnis quam quo molestias sequi, non quod consequatur beatae rem blanditiis inventore ratione quisquam aspernatur facere vel?
+
+In HTML, the "id" and "class" attributes are used to identify and style elements, but they have different purposes.
+
+The "id" attribute is used to uniquely identify an element on a web page. Each "id" value should be unique within the HTML document. It is often used to target specific elements with CSS or JavaScript for styling or functionality.
+
+On the other hand, the "class" attribute is used to group together elements that share a common purpose or style. Multiple elements can have the same "class" value, allowing them to be styled or targeted as a group using CSS or JavaScript.
+
+In summary, "id" is used to uniquely identify a single element, while "class" is used to group multiple elements together.
 
 </details>
 
@@ -147,7 +154,63 @@ What is difference between “id attribute” and the “class attribute” of H
 <summary>
 List various types of formatting tags in HTML with example.
 </summary>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam fuga qui nesciunt ipsa eius laborum repudiandae aut dignissimos voluptatum, perspiciatis molestias numquam iste, dolores veniam. Aliquam, pariatur dolore quia non explicabo eius! Pariatur omnis quam quo molestias sequi, non quod consequatur beatae rem blanditiis inventore ratione quisquam aspernatur facere vel?
+
+- `<b>` - Bold text
+- `<strong>` - Important text
+- `<i>` - Italic text
+- `<em>` - Emphasized text
+- `<mark>` - Marked text
+- `<del>` - Deleted text
+- `<ins>` - Inserted text
+- `<strike>` - strike text
+- `<u>` - underline text
+- `<sub>` - Subscript text
+- `<sup>` - Superscript text
+- `<big>` - Big text (1 unit of base text size)
+- `<small>` - Smaller text
+- `<tt>` - browser's default monospace text
+
+```html
+<!--Text in Bold-->
+<p><b>Bold Text</b></p>
+
+<!--Text in Strong-->
+<p><strong> Strong Text</strong></p>
+
+<!--Text in Italics-->
+<p><i>The Text inside italic Tag</i></p>
+
+<!--Text in Emphasize-->
+<p><em>Emphasized Text</em></p>
+
+<!-- small text -->
+<small>The text inside small Tag</small>
+
+<!-- Big text-->
+<big>The text inside big Tag</big>
+
+<!--Text in Superscript-->
+superscript <sup>Text</sup>
+
+<!--Text in Subscript-->
+subscript<sub>Text</sub>
+
+<!--Deleting andText in Insert-->
+<p>
+  The TajMahal is located in
+  <del>Bombay</del>
+  <ins>Agra</ins>
+</p>
+
+<!--Text in Highlight-->
+<mark>Highlighted Text</mark>
+
+<!-- monospace text -->
+<tt>Monospace text</tt>
+
+<!-- underline text -->
+<u>underline text</u>
+```
 
 </details>
 
@@ -155,7 +218,8 @@ List various types of formatting tags in HTML with example.
 <summary>
 Explain the usage of `<!DOCTYPE>` in HTML.
 </summary>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam fuga qui nesciunt ipsa eius laborum repudiandae aut dignissimos voluptatum, perspiciatis molestias numquam iste, dolores veniam. Aliquam, pariatur dolore quia non explicabo eius! Pariatur omnis quam quo molestias sequi, non quod consequatur beatae rem blanditiis inventore ratione quisquam aspernatur facere vel?
+
+`<!DOCTYPE>` tag is used to inform the browser about the version of HTML used in the document. It is called as the document type declaration (DTD). Technically <! DOCTYPE > is not a tag/element, it just an instruction to the browser about the document type.
 
 </details>
 
@@ -171,15 +235,93 @@ What is the significance of the `<head>` and `<body>` tag?
 <summary>
  State the difference between inline and block element.
 </summary>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam fuga qui nesciunt ipsa eius laborum repudiandae aut dignissimos voluptatum, perspiciatis molestias numquam iste, dolores veniam. Aliquam, pariatur dolore quia non explicabo eius! Pariatur omnis quam quo molestias sequi, non quod consequatur beatae rem blanditiis inventore ratione quisquam aspernatur facere vel?
 
+## Block elements:
+
+They consume the entire width available irrespective of their sufficiency. They always start in a new line and have top and bottom margins. It does not contain any other elements next to it.
+
+#### Examples of Block elements:
+
+- `<h1>-<h6>`
+- `<div>`
+- `<hr>`
+- `<li>`
+- `<ul>`
+- `<ol>`
+- `<p>`
+- `<table>`
+
+#### Semantic block elements:
+
+- `<header>`
+- `<main>`
+- `<section> `
+- `<footer>`
+- `<nav>`
+- `<article>`
+- `<aside>`
+
+## Inline elements:
+
+Inline elements occupy only enough width that is sufficient to it and allows other elements next to it which are inline. Inline elements don’t start from a new line and don’t have top and bottom margins as block elements have.
+
+#### Examples of Inline elements:
+
+- `<a>`
+- `<b>`
+- `<br>`
+- `<script>`
+- `<input>`
+- `<img>`
+- `<span>`
+- `<label>`
 </details>
 
 <details >
 <summary>
 What is the difference between `<link>` and `<a>` tag?
 </summary>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam fuga qui nesciunt ipsa eius laborum repudiandae aut dignissimos voluptatum, perspiciatis molestias numquam iste, dolores veniam. Aliquam, pariatur dolore quia non explicabo eius! Pariatur omnis quam quo molestias sequi, non quod consequatur beatae rem blanditiis inventore ratione quisquam aspernatur facere vel?
+
+## `<link>` Tag:
+
+This tag is used to establish a connection/relationship between the current document and some external resources that are associated with the webpage. The resource could be a CSS file, an icon used in the site, a manifest, etc.
+
+It has certain attributes some of mostly used are the following.
+
+- href= "URL"
+- media= "media_query/media_type"
+- rel= "relationship_with_resource"
+- size= "HeightxWidth"
+- type= "MIME_TYPE"
+
+### Example:
+
+```html
+<html>
+  <head>
+    <title>Link Tag</title>
+    <link rel="stylesheet" href="./externalResource.css" />
+  </head>
+  <body></body>
+</html>
+```
+
+## `<a>` Tag:
+
+This anchor tag establishes a hyperlink to an external or internal document of HTML, an address like email or telephone, and some kind of external URL address.
+
+### Some of the commonly used attributes are:-
+
+- href="URL"
+- target="some_browsing_context"
+- download="filename.ext"
+- ping="URL"
+
+### Example:
+
+```html
+<a href="https://www.google.com" target="_blank"> anchor tag </a>
+```
 
 </details>
 
