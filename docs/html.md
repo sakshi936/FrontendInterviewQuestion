@@ -219,7 +219,9 @@ subscript<sub>Text</sub>
 Explain the usage of `<!DOCTYPE>` in HTML.
 </summary>
 
-`<!DOCTYPE>` tag is used to inform the browser about the version of HTML used in the document. It is called as the document type declaration (DTD). Technically <! DOCTYPE > is not a tag/element, it just an instruction to the browser about the document type.
+### `<!DOCTYPE>`
+
+tag is used to inform the browser about the version of HTML used in the document. It is called as the document type declaration (DTD). Technically <! DOCTYPE > is not a tag/element, it just an instruction to the browser about the document type.
 
 </details>
 
