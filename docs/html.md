@@ -281,7 +281,7 @@ Inline elements occupy only enough width that is sufficient to it and allows oth
 
 <details >
 <summary>
-What is the difference between `<link>` and `<a>` tag?
+What is the difference between `<link>` and `<a.>`  tag?
 </summary>
 
 ## `<link>` Tag:
@@ -331,7 +331,68 @@ This anchor tag establishes a hyperlink to an external or internal document of H
 <summary>
 What is differences between the HTML vs HTML5.
 </summary>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam fuga qui nesciunt ipsa eius laborum repudiandae aut dignissimos voluptatum, perspiciatis molestias numquam iste, dolores veniam. Aliquam, pariatur dolore quia non explicabo eius! Pariatur omnis quam quo molestias sequi, non quod consequatur beatae rem blanditiis inventore ratione quisquam aspernatur facere vel?
+
+- HTML
+
+HTML stands for Hyper Text Markup Language. It is used to design web pages using a markup language. HTML is a combination of Hypertext and Markup language
+
+- HTML5
+
+HTML 5 is the fifth and current version of HTML. It has improved the markup available for documents and has introduced application programming interfaces(API) and Document Object Model(DOM). It has introduced various new features like drag and drop, geo-location services
+
+<table>
+<col>
+<col>
+<thead>
+<tr>
+<th>HTML</th>
+<th>HTML5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>It didn’t support audio and video without the use of flash player support.</td>
+<td >It supports audio and video controls with the use of &lt;audio&gt; and &lt;video&gt; tags.</td>
+</tr>
+<tr>
+<td>It uses cookies to store temporary data.td>
+<td >It uses SQL databases and application cache to store offline data.</td>
+</tr>
+<tr>
+<td >Does not allow JavaScript to run in the browser.</span></td>
+<td >Allows JavaScript to run in the background. This is possible due to JS Web worker API in HTML5.</td>
+</tr>
+<tr>
+<td >Vector graphics are possible in HTML with the help of various technologies such as VML, Silver-light, Flash, etc.</td>
+<td >Vector graphics are additionally an integral part of HTML5 like SVG and Canvas.</td>
+</tr>
+<tr>
+<td >It does not allow drag and drop effects.</td>
+<td >It allows drag and drop effects.</td>
+</tr>
+
+<tr>
+<td >It works with all old browsers.</td>
+<td >It supported by all new browser like Firefox, Mozilla, Chrome, Safari, etc.</td>
+</tr>
+<tr>
+<td >&lt;HTML&gt;,&lt;Body&gt; , and &lt;Head&gt; tags are mandatory while writing a HTML code.</td>
+<td >These tags can be omitted while writing HTML code.</td>
+</tr>
+
+<tr>
+<td >Elements like nav, header were not present.</td>
+<td >New element for web structure like nav, header, footer etc.</td>
+</tr>
+
+<tr>
+<td >It is almost impossible to get true GeoLocation of user with the help of browser.</td>
+<td >One can track the GeoLocation of a user easily by using JS GeoLocation API.</td>
+</tr>
+
+</tbody>
+</table>
+</table>
 
 </details>
 
@@ -339,7 +400,28 @@ What is differences between the HTML vs HTML5.
 <summary>
 What is forms in HTML?
 </summary>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam fuga qui nesciunt ipsa eius laborum repudiandae aut dignissimos voluptatum, perspiciatis molestias numquam iste, dolores veniam. Aliquam, pariatur dolore quia non explicabo eius! Pariatur omnis quam quo molestias sequi, non quod consequatur beatae rem blanditiis inventore ratione quisquam aspernatur facere vel?
+
+HTML Form is a document that stores information of a user on a web server using interactive controls. An HTML form contains different kinds of information such as username, password, contact number, email id, etc.
+The elements used in an HTML form are the check box, input box, radio buttons, submit buttons, etc. Using these elements the information of a user is submitted on a web server.
+
+Example:
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <form>
+      Username:<br />
+      <input type="text" name="username" />
+      <br />
+      Email id:<br />
+      <input type="text" name="email_id" />
+      <br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+```
 
 </details>
 
@@ -347,7 +429,6 @@ What is forms in HTML?
 <summary>
 Explain the types of inputs in HTML with example.
 </summary>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam fuga qui nesciunt ipsa eius laborum repudiandae aut dignissimos voluptatum, perspiciatis molestias numquam iste, dolores veniam. Aliquam, pariatur dolore quia non explicabo eius! Pariatur omnis quam quo molestias sequi, non quod consequatur beatae rem blanditiis inventore ratione quisquam aspernatur facere vel?
 
 </details>
 
