@@ -428,6 +428,154 @@ Example:
 <details >
 <summary>
 Explain the types of inputs in HTML with example.
+
+The `<input>` HTML element is used to create interactive controls for web-based forms in order to accept data from the user.
+
+How an `<input>` works varies considerably depending on the value of its type attribute. If this attribute is not specified, the default type adopted is text.
+
+- button: A push button with no default behavior displaying the value of the value attribute, empty by default.
+
+```html
+<label for="button">input button</label>
+<input type="button" id="button" name="button" />
+```
+
+- checkbox: A check box allowing single values to be selected/deselected.
+
+```html
+<div>
+  <input type="checkbox" id="scales" name="scales" checked />
+  <label for="scales">Scales</label>
+</div>
+
+<div>
+  <input type="checkbox" id="horns" name="horns" />
+  <label for="horns">Horns</label>
+</div>
+```
+
+- color:Interface used to choose the color of our choice.
+
+```html
+  <input type="color" id="head" name="head" value="#e66465" />
+  <label for="head">Head</label>
+</div>
+```
+
+- date: Interface used to choose a date.
+
+```html
+<input
+  type="date"
+  id="start"
+  name="trip-start"
+  value="2018-07-22"
+  min="2018-01-01"
+  max="2018-12-31"
+/>
+```
+
+- Email: Interface used to accept e-mail addresses.
+
+```html
+<input type="email" id="email" pattern=".+@example\.com" size="30" required />
+```
+
+- File: Interface used to upload files.
+
+```html
+<input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+```
+
+- Image: Interface used to input an image.
+
+```html
+<input
+  type="image"
+  id="image"
+  alt="Login"
+  src="/media/examples/login-button.png"
+/>
+```
+
+- Month: Interface used to input years and months. The format is “YYYY-MM”.
+
+```html
+<input type="month" id="start" name="start" min="2018-03" value="2018-05" />
+```
+
+- Number: Interface let the user enter a number.
+
+```html
+<input type="number" id="tentacles" name="tentacles" min="10" max="100" />
+```
+
+- Password: Interface defines a password field (characters are masked for security).
+
+```html
+<label for="pass">Password (8 characters minimum):</label>
+<input type="password" id="pass" name="password" minlength="8" required />
+```
+
+- Radio: Collection of radio buttons inputting a set of options.
+
+```html
+<input type="radio" id="huey" name="drone" value="huey" checked />
+<label for="huey">Huey</label>
+
+<input type="radio" id="dewey" name="drone" value="dewey" />
+<label for="dewey">Dewey</label>
+
+<input type="radio" id="louie" name="drone" value="louie" />
+<label for="louie">Louie</label>
+```
+
+- Range: Slide control interface with Default range is 0 to 100.
+
+```html
+<input type="range" id="volume" name="volume" min="0" max="11" />
+<label for="volume">Volume</label>
+```
+
+- Reset :Interface used to resets the form to the default values.
+
+```html
+<label for="id">User ID:</label>
+<input type="text" id="id" name="id" />
+
+<input type="reset" value="Reset" />
+<input type="submit" value="Submit" />
+```
+
+- Search: Interface for entering a search string.
+
+```html
+<input type="search" id="site-search" name="q" />
+
+<button>Search</button>
+```
+
+- Submit: Interface for submitting all form values to a form-handler.
+
+```html
+<input type="submit" value="Send Request" />
+```
+
+- URL: elements of type url are used to let the user enter and edit a URL.
+
+```html
+<label for="url">Enter an https:// URL:</label>
+<input
+  type="url"
+  name="url"
+  id="url"
+  placeholder="https://example.com"
+  pattern="https://.*"
+  size="30"
+  required
+/>
+```
+
 </summary>
 
 </details>
@@ -575,3 +723,4 @@ What is a marquee in HTML?
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam fuga qui nesciunt ipsa eius laborum repudiandae aut dignissimos voluptatum, perspiciatis molestias numquam iste, dolores veniam. Aliquam, pariatur dolore quia non explicabo eius! Pariatur omnis quam quo molestias sequi, non quod consequatur beatae rem blanditiis inventore ratione quisquam aspernatur facere vel?
 
 </details>
+````
