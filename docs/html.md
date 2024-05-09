@@ -584,7 +584,23 @@ How an `<input>` works varies considerably depending on the value of its type at
 <summary>
 What is the difference between `<figure>` tag and `<img>` tag?
 </summary>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam fuga qui nesciunt ipsa eius laborum repudiandae aut dignissimos voluptatum, perspiciatis molestias numquam iste, dolores veniam. Aliquam, pariatur dolore quia non explicabo eius! Pariatur omnis quam quo molestias sequi, non quod consequatur beatae rem blanditiis inventore ratione quisquam aspernatur facere vel?
+ 
+`<figure>` tag is used to semantically organize the content of images, videos, audios or even charts or tables, block of codes in the HTML document.
+
+```html
+<figure>
+  <img src="url" />
+  <figcaption>content</figcaption>
+</figure>
+```
+
+figcaption: This tag is used to set the caption to the image. It is optional to use.
+
+HTML `<img>` tag is used to add image or to set the background in the webpage/website. Nowadays website does not directly add images to a web page, as the images are linked to web pages by using the <img> tag which holds space for the image.
+
+```html
+<img src="url" alt="some_text" />
+```
 
 </details>
 
@@ -592,7 +608,20 @@ What is the difference between `<figure>` tag and `<img>` tag?
 <summary>
 Explain the importance of meta tags and their types.
 </summary>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam fuga qui nesciunt ipsa eius laborum repudiandae aut dignissimos voluptatum, perspiciatis molestias numquam iste, dolores veniam. Aliquam, pariatur dolore quia non explicabo eius! Pariatur omnis quam quo molestias sequi, non quod consequatur beatae rem blanditiis inventore ratione quisquam aspernatur facere vel?
+
+Meta tags are pieces of information you use to tell the search engines and those viewing your site more about your page and the information it contains. Meta tags include:
+
+- Title tags: the title of your page, which should be unique for every page you publish
+- Meta description: a description of the content on the page
+- Viewport tag: impacts how your content appears on mobile devices
+
+- Robots: can be used to indicate content that you want a “noindex” or a “nofollow”
+- Hreflang tags: allows the search engine to identify the language and country you want content displayed for when you have an international audience
+- Canonical tags: used to specify the primary or principle version of the page
+- Open graph tags: used to specify which assets show up in title and image by default when sharing links on social sites
+- Content type: impacts how your page is rendered in the browser
+
+Meta tags are brief snippets of text designed to describe a page’s content. these tags do not appear visibly on the page; rather, they are embedded in the page’s source code. Search engines are the ones that read and interpret these tags, aiding them in comprehending the subject matter of the page.
 
 </details>
 
@@ -600,7 +629,11 @@ Explain the importance of meta tags and their types.
 <summary>
 What are Sematic elements?
 </summary>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam fuga qui nesciunt ipsa eius laborum repudiandae aut dignissimos voluptatum, perspiciatis molestias numquam iste, dolores veniam. Aliquam, pariatur dolore quia non explicabo eius! Pariatur omnis quam quo molestias sequi, non quod consequatur beatae rem blanditiis inventore ratione quisquam aspernatur facere vel?
+A semantic element clearly describes its meaning to both the browser and the developer.
+
+Examples of non-semantic elements: `<div>` and `<span>` - Tells nothing about its content.
+
+Examples of semantic elements: `<form>`, `<table>`, and `<article>` - Clearly defines its content.
 
 </details>
 
@@ -608,7 +641,17 @@ What are Sematic elements?
 <summary>
 What is difference between `<meter>` tag and `<progress>` tag?
 </summary>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam fuga qui nesciunt ipsa eius laborum repudiandae aut dignissimos voluptatum, perspiciatis molestias numquam iste, dolores veniam. Aliquam, pariatur dolore quia non explicabo eius! Pariatur omnis quam quo molestias sequi, non quod consequatur beatae rem blanditiis inventore ratione quisquam aspernatur facere vel?
+- Progress tag: This tag is used to represent a progress bar on the webpage in order to show the progress of a task. Some uses of the progress bar include showing the file upload/download progress on a website.
+
+```html
+<progress value="50" max="200"></progress>
+```
+
+- Meter Tag: A Meter tag is also known as a gauge and basically defines a scale for the measurement of data within a specified range. The uses of a meter tag may include the fuel left in the tank, the temperature of an object, etc.
+
+```html
+<meter value="50" max="200" min="20"></meter>
+```
 
 </details>
 
@@ -616,7 +659,9 @@ What is difference between `<meter>` tag and `<progress>` tag?
 <summary>
 What is difference between SVG and Canvas HTML5 element?
 </summary>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam fuga qui nesciunt ipsa eius laborum repudiandae aut dignissimos voluptatum, perspiciatis molestias numquam iste, dolores veniam. Aliquam, pariatur dolore quia non explicabo eius! Pariatur omnis quam quo molestias sequi, non quod consequatur beatae rem blanditiis inventore ratione quisquam aspernatur facere vel?
+
+- Scalable Vector Graphics (SVG) is an XML-based image format used to define two-dimensional vector-based graphics for the web. Unlike raster images (Ex .jpg, .gif, .png, etc.),
+  a vector image can be scaled up or down to any extent without losing the image quality. An SVG image is drawn out using a series of statements that follow the XML schema — that means SVG images can be created and edited with any text editor, such as Notepad.
 
 </details>
 
@@ -723,4 +768,4 @@ What is a marquee in HTML?
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam fuga qui nesciunt ipsa eius laborum repudiandae aut dignissimos voluptatum, perspiciatis molestias numquam iste, dolores veniam. Aliquam, pariatur dolore quia non explicabo eius! Pariatur omnis quam quo molestias sequi, non quod consequatur beatae rem blanditiis inventore ratione quisquam aspernatur facere vel?
 
 </details>
-````
+```
