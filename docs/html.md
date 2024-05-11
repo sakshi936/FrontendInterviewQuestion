@@ -616,7 +616,7 @@ What is the difference between `<figure>` tag and `<img>` tag?
 
 figcaption: This tag is used to set the caption to the image. It is optional to use.
 
-HTML `<img>` tag is used to add image or to set the background in the webpage/website. Nowadays website does not directly add images to a web page, as the images are linked to web pages by using the <img> tag which holds space for the image.
+HTML `<img>` tag is used to add image or to set the background in the webpage/website. Nowadays website does not directly add images to a web page, as the images are linked to web pages by using the `<img>` tag which holds space for the image.
 
 ```html
 <img src="url" alt="some_text" />
