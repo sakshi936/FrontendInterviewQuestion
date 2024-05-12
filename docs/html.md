@@ -301,7 +301,7 @@ Inline elements occupy only enough width that is sufficient to it and allows oth
 
 <details >
 <summary>
-What is the difference between `<link>` and `<a.>`  tag?
+What is the difference between `<link>` and `<a>`  tag?
 </summary>
 
 ## `<link>` Tag:
