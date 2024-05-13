@@ -29,7 +29,7 @@ For Example:
 <p></p>
 ```
 
-![alt text](JFL1P.png)
+![alt text](../static/img/JFL1P.png)
 
 ### HTML attributes
 
@@ -137,7 +137,7 @@ A description list is a type of list where each item has a description. It is al
 
 <details >
 <summary>
-What is difference between “id attribute” and the “class attribute” of HML elements?
+What is difference between “id attribute” and the “class attribute” of HMTL elements?
 </summary>
 
 In HTML, the "id" and "class" attributes are used to identify and style elements, but they have different purposes.
@@ -155,20 +155,20 @@ In summary, "id" is used to uniquely identify a single element, while "class" is
 List various types of formatting tags in HTML with example.
 </summary>
 
-- `<b>` - Bold text
-- `<strong>` - Important text
-- `<i>` - Italic text
-- `<em>` - Emphasized text
-- `<mark>` - Marked text
-- `<del>` - Deleted text
-- `<ins>` - Inserted text
-- `<strike>` - strike text
-- `<u>` - underline text
-- `<sub>` - Subscript text
-- `<sup>` - Superscript text
-- `<big>` - Big text (1 unit of base text size)
-- `<small>` - Smaller text
-- `<tt>` - browser's default monospace text
+- `<b>`-Bold text
+- `<strong>`-Important text
+- `<i>`-Italic text
+- `<em>`-Emphasized text
+- `<mark>`-Marked text
+- `<del>`-Deleted text
+- `<ins>`-Inserted text
+- `<strike>`-strike text
+- `<u>`-underline text
+- `<sub>`-Subscript text
+- `<sup>`-Superscript text
+- `<big>`-Big text (1 unit of base text size)
+- `<small>`-Smaller text
+- `<tt>`-browser's default monospace text
 
 ```html
 <!--Text in Bold-->
@@ -232,7 +232,9 @@ What is the significance of the `<head>` and `<body>` tag?
 
 ## `<head>` tag:
 
-The head tag in HTML is used to contain the metadata or information related to the document. It holds some of the most important tags like `<title>` , `<meta>` , and `<link>`.
+The head tag in HTML is used to contain the metadata or information related to the document.
+head tag is used to define all the meta tag. It holds some of the most important tags like `<title>` , `<meta>` , and `<link>`.
+the `<head>` tag is used for providing necessary information and linking external resources that contribute to the appearance and behavior of the HTML document.
 
 - From browser perspective, it is not mandatory to include a `<head>` tag inside the HTML document but in previous versions(4.0.1) it was mandatory to include it.
 
@@ -264,7 +266,7 @@ They consume the entire width available irrespective of their sufficiency. They 
 
 #### Examples of Block elements:
 
-- `<h1>-<h6>`
+- `<h1> to <h6>`
 - `<div>`
 - `<hr>`
 - `<li>`
