@@ -52,7 +52,7 @@ An HTML entity is a piece of text ("string") that begins with an ampersand (&) a
 
 ### Reserved characters
 
-Some special characters are reserved for use in HTML, meaning that your browser will parse them as HTML code. For example, if you use the less-than (<) sign, the browser interprets any text that follows as a tag.
+Some special characters are reserved for use in HTML, meaning that your browser will parse them as HTML code. For example, if you use the less-than < sign, the browser interprets any text that follows as a tag.
 
 To display these characters as text, replace them with their corresponding character entities.
 
@@ -85,9 +85,9 @@ To display these characters as text, replace them with their corresponding chara
 HTML lists allow the content to follow a proper semantic structure. All the tags in the list require opening and closing tags.
 There are 3 types of lists in HTML, namely:
 
-- Unordered List
-- Ordered List
-- Description List
+-    Unordered List
+-    Ordered List
+-    Description List
 
 ### Unordered list
 
@@ -95,10 +95,10 @@ Unordered List: An Unordered list is used to create a list of related items, in 
 
 ```html
 <ul>
-  <li>Item1</li>
-  <li>Item2</li>
-  <li>Item3</li>
-  ...
+     <li>Item1</li>
+     <li>Item2</li>
+     <li>Item3</li>
+     ...
 </ul>
 ```
 
@@ -108,10 +108,10 @@ The Ordered lists have an order which is either numerical or alphabetical.
 
 ```html
 <ol>
-  <li>Item1</li>
-  <li>Item2</li>
-  <li>Item3</li>
-  ...
+     <li>Item1</li>
+     <li>Item2</li>
+     <li>Item3</li>
+     ...
 </ol>
 ```
 
@@ -121,15 +121,15 @@ A description list is a type of list where each item has a description. It is al
 
 ```html
 <dl>
-  <!--<dl>: It defines the start of the list.-->
-  <dt>Code</dt>
-  <!--<dt>: It defines a item.-->
-  <dd>- Code all day!</dd>
-  <!--<dd>: It defines the description of each item.-->
-  <dt>Eat</dt>
-  <dd>- Eat healthy food</dd>
-  <dt>Sleep</dt>
-  <dd>- Sleep soundly!</dd>
+     <!--<dl>: It defines the start of the list.-->
+     <dt>Code</dt>
+     <!--<dt>: It defines a item.-->
+     <dd>- Code all day!</dd>
+     <!--<dd>: It defines the description of each item.-->
+     <dt>Eat</dt>
+     <dd>- Eat healthy food</dd>
+     <dt>Sleep</dt>
+     <dd>- Sleep soundly!</dd>
 </dl>
 ```
 
@@ -155,20 +155,20 @@ In summary, "id" is used to uniquely identify a single element, while "class" is
 List various types of formatting tags in HTML with example.
 </summary>
 
-- `<b>`-Bold text
-- `<strong>`-Important text
-- `<i>`-Italic text
-- `<em>`-Emphasized text
-- `<mark>`-Marked text
-- `<del>`-Deleted text
-- `<ins>`-Inserted text
-- `<strike>`-strike text
-- `<u>`-underline text
-- `<sub>`-Subscript text
-- `<sup>`-Superscript text
-- `<big>`-Big text (1 unit of base text size)
-- `<small>`-Smaller text
-- `<tt>`-browser's default monospace text
+-    `<b>`-Bold text
+-    `<strong>`-Important text
+-    `<i>`-Italic text
+-    `<em>`-Emphasized text
+-    `<mark>`-Marked text
+-    `<del>`-Deleted text
+-    `<ins>`-Inserted text
+-    `<strike>`-strike text
+-    `<u>`-underline text
+-    `<sub>`-Subscript text
+-    `<sup>`-Superscript text
+-    `<big>`-Big text (1 unit of base text size)
+-    `<small>`-Smaller text
+-    `<tt>`-browser's default monospace text
 
 ```html
 <!--Text in Bold-->
@@ -197,9 +197,9 @@ subscript<sub>Text</sub>
 
 <!--Deleting andText in Insert-->
 <p>
-  The TajMahal is located in
-  <del>Bombay</del>
-  <ins>Agra</ins>
+     The TajMahal is located in
+     <del>Bombay</del>
+     <ins>Agra</ins>
 </p>
 
 <!--Text in Highlight-->
@@ -221,7 +221,7 @@ Explain the usage of `<!DOCTYPE>` in HTML.
 
 ### `<!DOCTYPE>`
 
-tag is used to inform the browser about the version of HTML used in the document. It is called as the document type declaration (DTD). Technically <! DOCTYPE > is not a tag/element, it just an instruction to the browser about the document type.
+tag is used to inform the browser about the version of HTML used in the document. It is called as the document type declaration (DTD). Technically `<! DOCTYPE >` is not a tag/element, it just an instruction to the browser about the document type.
 
 </details>
 
@@ -236,22 +236,22 @@ The head tag in HTML is used to contain the metadata or information related to t
 head tag is used to define all the meta tag. It holds some of the most important tags like `<title>` , `<meta>` , and `<link>`.
 the `<head>` tag is used for providing necessary information and linking external resources that contribute to the appearance and behavior of the HTML document.
 
-- From browser perspective, it is not mandatory to include a `<head>` tag inside the HTML document but in previous versions(4.0.1) it was mandatory to include it.
+-    From browser perspective, it is not mandatory to include a `<head>` tag inside the HTML document but in previous versions(4.0.1) it was mandatory to include it.
 
-- The tags like `<title>`, `<meta>` or `<link>` which are generally contained inside head will also work fine without the `<head>` tag or outside the `<head>` tag.
+-    The tags like `<title>`, `<meta>` or `<link>` which are generally contained inside head will also work fine without the `<head>` tag or outside the `<head>` tag.
 
-- From the developer’s perspective, it is good to include the `<head>` tag inside the document because this syntax is widely used and it also gives a good structure to the document. Later this will help us to interact with the DOM elements in a structured way.
+-    From the developer’s perspective, it is good to include the `<head>` tag inside the document because this syntax is widely used and it also gives a good structure to the document. Later this will help us to interact with the DOM elements in a structured way.
 
 ## `<body>` tag:
 
 It is used to contain the main content of the HTML document. It holds everything from the heading, paragraphs to the unique div containers reside inside the `<body>` tag.
 
-- From browser perspective, it is also not mandatory to include a <body> tag inside the HTML document in HTML 5 but in previous versions(4.0.1) it was mandatory to include it.
+-    From browser perspective, it is also not mandatory to include a `<body>` tag inside the HTML document in HTML 5 but in previous versions(4.0.1) it was mandatory to include it.
 
-- The tags like `<div>`, `<p>` or `<a>` which are generally contained inside body will also work fine without the `<body>` tag or outside the `<body>` tag.
-  Despite being not mandatory, the `<body>` tag have some attributes like ‘background’, ‘bgcolor’ , ‘a’ , ‘link’ etc.
+-    The tags like `<div>`, `<p>` or `<a>` which are generally contained inside body will also work fine without the `<body>` tag or outside the `<body>` tag.
+     Despite being not mandatory, the `<body>` tag have some attributes like ‘background’, ‘bgcolor’ , ‘a’ , ‘link’ etc.
 
-- From the developer’s perspective, it is good to include the `<body>` tag inside the document. This syntax is widely used and it also gives a good structure to the document. Later this will help us to interact with the DOM elements in a structured way.
+-    From the developer’s perspective, it is good to include the `<body>` tag inside the document. This syntax is widely used and it also gives a good structure to the document. Later this will help us to interact with the DOM elements in a structured way.
 
 </details>
 
@@ -266,24 +266,24 @@ They consume the entire width available irrespective of their sufficiency. They 
 
 #### Examples of Block elements:
 
-- `<h1> to <h6>`
-- `<div>`
-- `<hr>`
-- `<li>`
-- `<ul>`
-- `<ol>`
-- `<p>`
-- `<table>`
+-    `<h1> to <h6>`
+-    `<div>`
+-    `<hr>`
+-    `<li>`
+-    `<ul>`
+-    `<ol>`
+-    `<p>`
+-    `<table>`
 
 #### Semantic block elements:
 
-- `<header>`
-- `<main>`
-- `<section> `
-- `<footer>`
-- `<nav>`
-- `<article>`
-- `<aside>`
+-    `<header>`
+-    `<main>`
+-    `<section> `
+-    `<footer>`
+-    `<nav>`
+-    `<article>`
+-    `<aside>`
 
 ## Inline elements:
 
@@ -291,14 +291,14 @@ Inline elements occupy only enough width that is sufficient to it and allows oth
 
 #### Examples of Inline elements:
 
-- `<a>`
-- `<b>`
-- `<br>`
-- `<script>`
-- `<input>`
-- `<img>`
-- `<span>`
-- `<label>`
+-    `<a>`
+-    `<b>`
+-    `<br>`
+-    `<script>`
+-    `<input>`
+-    `<img>`
+-    `<span>`
+-    `<label>`
 </details>
 
 <details >
@@ -312,21 +312,21 @@ This tag is used to establish a connection/relationship between the current docu
 
 It has certain attributes some of mostly used are the following.
 
-- href= "URL"
-- media= "media_query/media_type"
-- rel= "relationship_with_resource"
-- size= "HeightxWidth"
-- type= "MIME_TYPE"
+-    href= "URL"
+-    media= "media_query/media_type"
+-    rel= "relationship_with_resource"
+-    size= "HeightxWidth"
+-    type= "MIME_TYPE"
 
 ### Example:
 
 ```html
 <html>
-  <head>
-    <title>Link Tag</title>
-    <link rel="stylesheet" href="./externalResource.css" />
-  </head>
-  <body></body>
+     <head>
+          <title>Link Tag</title>
+          <link rel="stylesheet" href="./externalResource.css" />
+     </head>
+     <body></body>
 </html>
 ```
 
@@ -336,10 +336,10 @@ This anchor tag establishes a hyperlink to an external or internal document of H
 
 ### Some of the commonly used attributes are:-
 
-- href="URL"
-- target="some_browsing_context"
-- download="filename.ext"
-- ping="URL"
+-    href="URL"
+-    target="some_browsing_context"
+-    download="filename.ext"
+-    ping="URL"
 
 ### Example:
 
@@ -354,17 +354,16 @@ This anchor tag establishes a hyperlink to an external or internal document of H
 What is differences between the HTML vs HTML5.
 </summary>
 
-- HTML
+-    HTML
 
 HTML stands for Hyper Text Markup Language. It is used to design web pages using a markup language. HTML is a combination of Hypertext and Markup language
 
-- HTML5
+-    HTML5
 
 HTML 5 is the fifth and current version of HTML. It has improved the markup available for documents and has introduced application programming interfaces(API) and Document Object Model(DOM). It has introduced various new features like drag and drop, geo-location services
 
 <table>
-<col>
-<col>
+
 <thead>
 <tr>
 <th>HTML</th>
@@ -377,11 +376,11 @@ HTML 5 is the fifth and current version of HTML. It has improved the markup avai
 <td >It supports audio and video controls with the use of &lt;audio&gt; and &lt;video&gt; tags.</td>
 </tr>
 <tr>
-<td>It uses cookies to store temporary data.td>
+<td>It uses cookies to store temporary data. </td>
 <td >It uses SQL databases and application cache to store offline data.</td>
 </tr>
 <tr>
-<td >Does not allow JavaScript to run in the browser.</span></td>
+<td >Does not allow JavaScript to run in the browser. </td>
 <td >Allows JavaScript to run in the background. This is possible due to JS Web worker API in HTML5.</td>
 </tr>
 <tr>
@@ -414,7 +413,6 @@ HTML 5 is the fifth and current version of HTML. It has improved the markup avai
 
 </tbody>
 </table>
-</table>
 
 </details>
 
@@ -431,17 +429,17 @@ Example:
 ```html
 <!DOCTYPE html>
 <html>
-  <body>
-    <form>
-      Username:<br />
-      <input type="text" name="username" />
-      <br />
-      Email id:<br />
-      <input type="text" name="email_id" />
-      <br /><br />
-      <input type="submit" value="Submit" />
-    </form>
-  </body>
+     <body>
+          <form>
+               Username:<br />
+               <input type="text" name="username" />
+               <br />
+               Email id:<br />
+               <input type="text" name="email_id" />
+               <br /><br />
+               <input type="submit" value="Submit" />
+          </form>
+     </body>
 </html>
 ```
 
@@ -457,28 +455,27 @@ The `<input>` HTML element is used to create interactive controls for web-based 
 
 How an `<input>` works varies considerably depending on the value of its type attribute. If this attribute is not specified, the default type adopted is text.
 
-- button: A push button with no default behavior displaying the value of the value attribute, empty by default.
+-    button: A push button with no default behavior displaying the value of the value attribute, empty by default.
 
 ```html
-<label for="button">input button</label>
-<input type="button" id="button" name="button" />
+<label for="button">input button</label> <input type="button" id="button" name="button" />
 ```
 
-- checkbox: A check box allowing single values to be selected/deselected.
+-    checkbox: A check box allowing single values to be selected/deselected.
 
 ```html
 <div>
-  <input type="checkbox" id="scales" name="scales" checked />
-  <label for="scales">Scales</label>
+     <input type="checkbox" id="scales" name="scales" checked />
+     <label for="scales">Scales</label>
 </div>
 
 <div>
-  <input type="checkbox" id="horns" name="horns" />
-  <label for="horns">Horns</label>
+     <input type="checkbox" id="horns" name="horns" />
+     <label for="horns">Horns</label>
 </div>
 ```
 
-- color:Interface used to choose the color of our choice.
+-    color:Interface used to choose the color of our choice.
 
 ```html
   <input type="color" id="head" name="head" value="#e66465" />
@@ -486,62 +483,49 @@ How an `<input>` works varies considerably depending on the value of its type at
 </div>
 ```
 
-- date: Interface used to choose a date.
+-    date: Interface used to choose a date.
 
 ```html
-<input
-  type="date"
-  id="start"
-  name="trip-start"
-  value="2018-07-22"
-  min="2018-01-01"
-  max="2018-12-31"
-/>
+<input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" />
 ```
 
-- Email: Interface used to accept e-mail addresses.
+-    Email: Interface used to accept e-mail addresses.
 
 ```html
 <input type="email" id="email" pattern=".+@example\.com" size="30" required />
 ```
 
-- File: Interface used to upload files.
+-    File: Interface used to upload files.
 
 ```html
 <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
 ```
 
-- Image: Interface used to input an image.
+-    Image: Interface used to input an image.
 
 ```html
-<input
-  type="image"
-  id="image"
-  alt="Login"
-  src="/media/examples/login-button.png"
-/>
+<input type="image" id="image" alt="Login" src="/media/examples/login-button.png" />
 ```
 
-- Month: Interface used to input years and months. The format is “YYYY-MM”.
+-    Month: Interface used to input years and months. The format is “YYYY-MM”.
 
 ```html
 <input type="month" id="start" name="start" min="2018-03" value="2018-05" />
 ```
 
-- Number: Interface let the user enter a number.
+-    Number: Interface let the user enter a number.
 
 ```html
 <input type="number" id="tentacles" name="tentacles" min="10" max="100" />
 ```
 
-- Password: Interface defines a password field (characters are masked for security).
+-    Password: Interface defines a password field (characters are masked for security).
 
 ```html
-<label for="pass">Password (8 characters minimum):</label>
-<input type="password" id="pass" name="password" minlength="8" required />
+<label for="pass">Password (8 characters minimum):</label> <input type="password" id="pass" name="password" minlength="8" required />
 ```
 
-- Radio: Collection of radio buttons inputting a set of options.
+-    Radio: Collection of radio buttons inputting a set of options.
 
 ```html
 <input type="radio" id="huey" name="drone" value="huey" checked />
@@ -554,14 +538,13 @@ How an `<input>` works varies considerably depending on the value of its type at
 <label for="louie">Louie</label>
 ```
 
-- Range: Slide control interface with Default range is 0 to 100.
+-    Range: Slide control interface with Default range is 0 to 100.
 
 ```html
-<input type="range" id="volume" name="volume" min="0" max="11" />
-<label for="volume">Volume</label>
+<input type="range" id="volume" name="volume" min="0" max="11" /> <label for="volume">Volume</label>
 ```
 
-- Reset :Interface used to resets the form to the default values.
+-    Reset :Interface used to resets the form to the default values.
 
 ```html
 <label for="id">User ID:</label>
@@ -571,7 +554,7 @@ How an `<input>` works varies considerably depending on the value of its type at
 <input type="submit" value="Submit" />
 ```
 
-- Search: Interface for entering a search string.
+-    Search: Interface for entering a search string.
 
 ```html
 <input type="search" id="site-search" name="q" />
@@ -579,25 +562,16 @@ How an `<input>` works varies considerably depending on the value of its type at
 <button>Search</button>
 ```
 
-- Submit: Interface for submitting all form values to a form-handler.
+-    Submit: Interface for submitting all form values to a form-handler.
 
 ```html
 <input type="submit" value="Send Request" />
 ```
 
-- URL: elements of type url are used to let the user enter and edit a URL.
+-    URL: elements of type url are used to let the user enter and edit a URL.
 
 ```html
-<label for="url">Enter an https:// URL:</label>
-<input
-  type="url"
-  name="url"
-  id="url"
-  placeholder="https://example.com"
-  pattern="https://.*"
-  size="30"
-  required
-/>
+<label for="url">Enter an https:// URL:</label> <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required />
 ```
 
 </details>
@@ -611,8 +585,8 @@ What is the difference between `<figure>` tag and `<img>` tag?
 
 ```html
 <figure>
-  <img src="url" />
-  <figcaption>content</figcaption>
+     <img src="url" />
+     <figcaption>content</figcaption>
 </figure>
 ```
 
@@ -633,15 +607,15 @@ Explain the importance of meta tags and their types.
 
 Meta tags are pieces of information you use to tell the search engines and those viewing your site more about your page and the information it contains. Meta tags include:
 
-- Title tags: the title of your page, which should be unique for every page you publish
-- Meta description: a description of the content on the page
-- Viewport tag: impacts how your content appears on mobile devices
+-    Title tags: the title of your page, which should be unique for every page you publish
+-    Meta description: a description of the content on the page
+-    Viewport tag: impacts how your content appears on mobile devices
 
-- Robots: can be used to indicate content that you want a “noindex” or a “nofollow”
-- Hreflang tags: allows the search engine to identify the language and country you want content displayed for when you have an international audience
-- Canonical tags: used to specify the primary or principle version of the page
-- Open graph tags: used to specify which assets show up in title and image by default when sharing links on social sites
-- Content type: impacts how your page is rendered in the browser
+-    Robots: can be used to indicate content that you want a “noindex” or a “nofollow”
+-    Hreflang tags: allows the search engine to identify the language and country you want content displayed for when you have an international audience
+-    Canonical tags: used to specify the primary or principle version of the page
+-    Open graph tags: used to specify which assets show up in title and image by default when sharing links on social sites
+-    Content type: impacts how your page is rendered in the browser
 
 Meta tags are brief snippets of text designed to describe a page’s content. these tags do not appear visibly on the page; rather, they are embedded in the page’s source code. Search engines are the ones that read and interpret these tags, aiding them in comprehending the subject matter of the page.
 
@@ -664,13 +638,13 @@ Examples of semantic elements: `<form>`, `<table>`, and `<article>` - Clearly de
 What is difference between `<meter>` tag and `<progress>` tag?
 </summary>
 
-- Progress tag: This tag is used to represent a progress bar on the webpage in order to show the progress of a task. Some uses of the progress bar include showing the file upload/download progress on a website.
+-    Progress tag: This tag is used to represent a progress bar on the webpage in order to show the progress of a task. Some uses of the progress bar include showing the file upload/download progress on a website.
 
 ```html
 <progress value="50" max="200"></progress>
 ```
 
-- Meter Tag: A Meter tag is also known as a gauge and basically defines a scale for the measurement of data within a specified range. The uses of a meter tag may include the fuel left in the tank, the temperature of an object, etc.
+-    Meter Tag: A Meter tag is also known as a gauge and basically defines a scale for the measurement of data within a specified range. The uses of a meter tag may include the fuel left in the tank, the temperature of an object, etc.
 
 ```html
 <meter value="50" max="200" min="20"></meter>
@@ -683,31 +657,25 @@ What is difference between `<meter>` tag and `<progress>` tag?
 What is difference between SVG and Canvas HTML5 element?
 </summary>
 
-- Scalable Vector Graphics (SVG) is an XML-based image format used to define two-dimensional vector-based graphics for the web. Unlike raster images (Ex .jpg, .gif, .png, etc.),
-  a vector image can be scaled up or down to any extent without losing the image quality. An SVG image is drawn out using a series of statements that follow the XML schema — that means SVG images can be created and edited with any text editor, such as Notepad.
+-    Scalable Vector Graphics (SVG) is an XML-based image format used to define two-dimensional vector-based graphics for the web. Unlike raster images (Ex .jpg, .gif, .png, etc.),
+     a vector image can be scaled up or down to any extent without losing the image quality. An SVG image is drawn out using a series of statements that follow the XML schema — that means SVG images can be created and edited with any text editor, such as Notepad.
 
 ```html
 <svg id="svgelem" height="200">
-  <circle id="greencircle" cx="60" cy="60" r="50" fill="green" />
+     <circle id="greencircle" cx="60" cy="60" r="50" fill="green" />
 </svg>
 ```
 
-- The Canvas element is used to draw graphics on the fly, via scripting (usually JavaScript). The element is only a container for graphics. You must use a script to actually draw the graphics. Canvas has several methods for drawing paths, boxes, circles, text, and adding images.
+-    The Canvas element is used to draw graphics on the fly, via scripting (usually JavaScript). The element is only a container for graphics. You must use a script to actually draw the graphics. Canvas has several methods for drawing paths, boxes, circles, text, and adding images.
 
 ```html
-<canvas
-  id="newCanvas"
-  width="100"
-  height="100"
-  style="border:1px solid #000000;"
->
-</canvas>
+<canvas id="newCanvas" width="100" height="100" style="border:1px solid #000000;"> </canvas>
 
 <script>
-  var c = document.getElementById("newCanvas");
-  var ctx = c.getContext("2d");
-  ctx.fillStyle = "#7cce2b";
-  ctx.fillRect(0, 0, 100, 100);
+     var c = document.getElementById("newCanvas");
+     var ctx = c.getContext("2d");
+     ctx.fillStyle = "#7cce2b";
+     ctx.fillRect(0, 0, 100, 100);
 </script>
 ```
 
@@ -724,10 +692,10 @@ Storing data with the help of web storage is similar to cookies, but it is bette
 
 Advantages of Web Storage:
 
-- Web Storage can use storage space upto 5MB per domain. (The browser software may prompt the user if the space limit is reached).
-- It will not send data to the server side, hence it is faster than cookies storage.
-- The data stored by local Storage never expires, but cookies data expires after some time or session.
-- Web Storage is more secure than cookies.
+-    Web Storage can use storage space upto 5MB per domain. (The browser software may prompt the user if the space limit is reached).
+-    It will not send data to the server side, hence it is faster than cookies storage.
+-    The data stored by local Storage never expires, but cookies data expires after some time or session.
+-    Web Storage is more secure than cookies.
 
 </details>
 
@@ -764,8 +732,8 @@ on to the HTML Document.-->
 
 ```html
 <p>
-  This is <comment>not</comment>
-  Internet Explorer.
+     This is <comment>not</comment>
+     Internet Explorer.
 </p>
 ```
 
@@ -773,8 +741,8 @@ on to the HTML Document.-->
 
 ```html
 <!--[if IE 9]>
-  <h1>DataFlair</h1>
-  <p>E-Learning</p>
+     <h1>DataFlair</h1>
+     <p>E-Learning</p>
 <![endif]-->
 ```
 
@@ -803,14 +771,11 @@ The browser collapses a sequence of spaces into a single space character, which 
 ```html
 <!DOCTYPE html>
 <html>
-  <head> </head>
-  <body>
-    <h1>HTML Collapses Extra Space</h1>
-    <p>
-      Paragraph content has a sequence of spaces that are collapsed to a single
-      space character by the browser.
-    </p>
-  </body>
+     <head> </head>
+     <body>
+          <h1>HTML Collapses Extra Space</h1>
+          <p>Paragraph content has a sequence of spaces that are collapsed to a single space character by the browser.</p>
+     </body>
 </html>
 ```
 
@@ -855,19 +820,19 @@ HTML (HypertextMarkup Language) and XHTML (Extensible Hypertext Markup Language)
 
 #### Key Differences Between HTML and XHTML
 
-- Syntax: XHTML has a stricter syntax than HTML, meaning that it must follow XML rules for proper formatting and structure. HTML, on the other hand, is more flexible in its syntax.
+-    Syntax: XHTML has a stricter syntax than HTML, meaning that it must follow XML rules for proper formatting and structure. HTML, on the other hand, is more flexible in its syntax.
 
-- Document Type Definition (DTD): XHTML requires a DTD to be specified, which defines the rules for the structure of the document. HTML does not require a DTD.
+-    Document Type Definition (DTD): XHTML requires a DTD to be specified, which defines the rules for the structure of the document. HTML does not require a DTD.
 
-- Case sensitivity: XHTML is case sensitive, meaning that elements and attributes must be in lower case. HTML is not case sensitive.
+-    Case sensitivity: XHTML is case sensitive, meaning that elements and attributes must be in lower case. HTML is not case sensitive.
 
-- Empty Elements: In XHTML, all empty elements must be closed, such as `<br />` or `<img src="image.jpg" alt="image" />`. In HTML, some empty elements can be left open, such as `<br>` or `<img src="image.jpg" alt="image">`.
+-    Empty Elements: In XHTML, all empty elements must be closed, such as `<br />` or `<img src="image.jpg" alt="image" />`. In HTML, some empty elements can be left open, such as `<br>` or `<img src="image.jpg" alt="image">`.
 
-- Attribute values: In XHTML, all attribute values must be quoted, while in HTML they can be either quoted or unquoted.
+-    Attribute values: In XHTML, all attribute values must be quoted, while in HTML they can be either quoted or unquoted.
 
-- Error handling: XHTML has more strict error handling, with errors resulting in the page not being displayed properly. HTML is more forgiving of errors and will still display the page even if there are mistakes in the code.
+-    Error handling: XHTML has more strict error handling, with errors resulting in the page not being displayed properly. HTML is more forgiving of errors and will still display the page even if there are mistakes in the code.
 
-- Future compatibility: XHTML is designed to be compatible with future technologies and devices, while HTML may not be as compatible in the future.
+-    Future compatibility: XHTML is designed to be compatible with future technologies and devices, while HTML may not be as compatible in the future.
 
 </details>
 
@@ -878,11 +843,11 @@ What is difference between absolute and relative URL?
 
 Absolute URLs specify the full path to a resource including the protocol and domain name, while relative URLs specify a path relative to the current URL’s base path.
 
-- An absolute URL provides the complete address of a webpage or file on the internet, including the protocol “http:// or https://” domain, and path to the resource.
+-    An absolute URL provides the complete address of a webpage or file on the internet, including the protocol “http:// or https://” domain, and path to the resource.
 
 eg. https://www.example.com/images/logo.png
 
-- A relative URL specifies the path to a resource about the current document’s path or the base URL of the website, without the domain name and protocol.
+-    A relative URL specifies the path to a resource about the current document’s path or the base URL of the website, without the domain name and protocol.
 
 a relative URL to another page in the same directory like contact.html would simply be ,
 e.g. contact.html
@@ -913,17 +878,17 @@ The form-data can be sent as URL variables (with method="get") or as HTTP post t
 
 Notes on GET:
 
-- Appends form-data into the URL in name/value pairs
-- The length of a URL is limited (about 3000 characters)
-- Never use GET to send sensitive data! (will be visible in the URL)
-- Useful for form submissions where a user wants to bookmark the result
-- GET is better for non-secure data, like query strings in Google
+-    Appends form-data into the URL in name/value pairs
+-    The length of a URL is limited (about 3000 characters)
+-    Never use GET to send sensitive data! (will be visible in the URL)
+-    Useful for form submissions where a user wants to bookmark the result
+-    GET is better for non-secure data, like query strings in Google
 
 Notes on POST:
 
-- Appends form-data inside the body of the HTTP request (data is not shown in URL)
-- Has no size limitations
-- Form submissions with POST cannot be bookmarked
+-    Appends form-data inside the body of the HTTP request (data is not shown in URL)
+-    Has no size limitations
+-    Form submissions with POST cannot be bookmarked
 
 </details>
 
@@ -936,47 +901,41 @@ The `<marquee>` HTML element is used to insert a scrolling area of text. You can
 
 ## Attributes
 
-- behavior: Sets how the text is scrolled within the marquee. Possible values are scroll, slide and alternate. If no value is specified, the default value is scroll.
+-    behavior: Sets how the text is scrolled within the marquee. Possible values are scroll, slide and alternate. If no value is specified, the default value is scroll.
 
-- bgcolor: Deprecated Sets the background color through color name or hexadecimal value.
+-    bgcolor: Deprecated Sets the background color through color name or hexadecimal value.
 
-- direction: Deprecated Sets the direction of the scrolling within the marquee. Possible values are left, right, up and down. If no value is specified, the default value is left.
+-    direction: Deprecated Sets the direction of the scrolling within the marquee. Possible values are left, right, up and down. If no value is specified, the default value is left.
 
-- height: Deprecated Sets the height in pixels or percentage value.
+-    height: Deprecated Sets the height in pixels or percentage value.
 
-- hspace: Deprecated
-  Sets the horizontal margin
+-    hspace: Deprecated
+     Sets the horizontal margin
 
-- loop: Deprecated
-  Sets the number of times the marquee will scroll. If no value is specified, the default value is −1, which means the marquee will scroll continuously.
+-    loop: Deprecated
+     Sets the number of times the marquee will scroll. If no value is specified, the default value is −1, which means the marquee will scroll continuously.
 
-- scrollamount: Deprecated
-  Sets the amount of scrolling at each interval in pixels. The default value is 6.
+-    scrollamount: Deprecated
+     Sets the amount of scrolling at each interval in pixels. The default value is 6.
 
-- scrolldelay: Deprecated
-  Sets the interval between each scroll movement in milliseconds. The default value is 85.
+-    scrolldelay: Deprecated
+     Sets the interval between each scroll movement in milliseconds. The default value is 85.
 
-- truespeed: Deprecated
-  By default, scrolldelay values lower than 60 are ignored. If truespeed is present, those values are not ignored.
+-    truespeed: Deprecated
+     By default, scrolldelay values lower than 60 are ignored. If truespeed is present, those values are not ignored.
 
-- vspace: Deprecated
-  Sets the vertical margin in pixels or percentage value.
-- width: Deprecated
-  Sets the width in pixels or percentage value.
+-    vspace: Deprecated
+     Sets the vertical margin in pixels or percentage value.
+-    width: Deprecated
+     Sets the width in pixels or percentage value.
 
 ```html
 <marquee>This text will scroll from right to left</marquee>
 
 <marquee direction="up">This text will scroll from bottom to top</marquee>
 
-<marquee
-  direction="down"
-  width="250"
-  height="200"
-  behavior="alternate"
-  style="border:solid"
->
-  <marquee behavior="alternate">This text will bounce</marquee>
+<marquee direction="down" width="250" height="200" behavior="alternate" style="border:solid">
+     <marquee behavior="alternate">This text will bounce</marquee>
 </marquee>
 ```
 
@@ -994,46 +953,46 @@ Grouping can be performed with the help of various tags such as `<div>`, `<heade
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-    <style>
-      header {
-        color: red;
-      }
+     <head>
+          <style>
+               header {
+                    color: red;
+               }
 
-      .div1 {
-        background: yellow;
-      }
+               .div1 {
+                    background: yellow;
+               }
 
-      .div2 {
-        background: blue;
-      }
+               .div2 {
+                    background: blue;
+               }
 
-      footer {
-        color: blue;
-      }
-    </style>
-  </head>
+               footer {
+                    color: blue;
+               }
+          </style>
+     </head>
 
-  <body>
-    <header>
-      <h1>This is heading</h1>
+     <body>
+          <header>
+               <h1>This is heading</h1>
 
-      <p>This is paragraph in header group</p>
-    </header>
+               <p>This is paragraph in header group</p>
+          </header>
 
-    <div class="div1">
-      <h1>In Div1</h1>
-    </div>
-    <div class="div2">
-      <h1>In Div2</h1>
-    </div>
+          <div class="div1">
+               <h1>In Div1</h1>
+          </div>
+          <div class="div2">
+               <h1>In Div2</h1>
+          </div>
 
-    <footer>
-      <p>This is footer information</p>
+          <footer>
+               <p>This is footer information</p>
 
-      <p><a href="mailto:xyz@gmail.com">Email</a></p>
-    </footer>
-  </body>
+               <p><a href="mailto:xyz@gmail.com">Email</a></p>
+          </footer>
+     </body>
 </html>
 ```
 
@@ -1048,15 +1007,15 @@ Accessibility is the practice of making your websites usable by as many people a
 
 Some common accessibility considerations in HTML include:
 
-- Semantic HTML, which improves accessibility, also improves SEO, making your site more findable.
+-    Semantic HTML, which improves accessibility, also improves SEO, making your site more findable.
 
-- Caring about accessibility demonstrates good ethics and morals, which improves your public image.
+-    Caring about accessibility demonstrates good ethics and morals, which improves your public image.
 
-- Text Alternatives: Providing descriptive text alternatives for non-text content such as images, videos, and audio files using the alt attribute for images (`<img>`), `<audio>` and `<video>` elements.
+-    Text Alternatives: Providing descriptive text alternatives for non-text content such as images, videos, and audio files using the alt attribute for images (`<img>`), `<audio>` and `<video>` elements.
 
-- Form Accessibility: Providing labels for form inputs, using appropriate input types (`<input type="text">`, `<input type="email">`, `<input type="checkbox">`, etc.), and associating labels with their corresponding inputs using the for attribute on `<label>` elements.
+-    Form Accessibility: Providing labels for form inputs, using appropriate input types (`<input type="text">`, `<input type="email">`, `<input type="checkbox">`, etc.), and associating labels with their corresponding inputs using the for attribute on `<label>` elements.
 
-- Other good practices that improve accessibility also make your site more usable by other groups, such as mobile phone users or those on low network speed. In fact, everyone can benefit from many such improvements.
+-    Other good practices that improve accessibility also make your site more usable by other groups, such as mobile phone users or those on low network speed. In fact, everyone can benefit from many such improvements.
 
 </details>
 ```
